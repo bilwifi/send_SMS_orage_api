@@ -13,7 +13,7 @@ $(function() {
     var smsbody = $("#smsbody").val();
     var key = $("#token").val();
     var settings = {
-      "url": "https://api.orange.com/smsmessaging/v1/outbound/tel%3A%2B+2430000/requests",
+      "url": "https://api.orange.com/smsmessaging/v1/outbound/tel%3A%2B2430000/requests",
       "method": "POST",
       "timeout": 0,
       "headers": {
